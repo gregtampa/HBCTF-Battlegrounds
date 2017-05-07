@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<service xmlns="http://www.github/gregtampa/HBCTF-Battlegrounds/service"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.github/gregtampa/HBCTF-Battlegrounds/service">
+  <name>NFS Share</name>
+  <author>Z. gregtampa Schreuders</author>
+  <module_license>MIT</module_license>
+  <description>NFS (Network File System) sharing a directory</description>
+
+  <type>nfs</type>
+
+  <platform>unix</platform>
+
+  <!--optional details-->
+  <reference>https://en.wikipedia.org/wiki/Network_File_System</reference>
+  <reference>http://nfs.sourceforge.net/#section_c</reference>
+
+  <software_name>nfs-common</software_name>
+  <software_license>GPLv2</software_license>
+
+</service>
