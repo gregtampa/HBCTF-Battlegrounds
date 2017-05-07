@@ -96,7 +96,7 @@ To generate a set of VMs for a CTF competition:
 ```
 Note the flags and hints are stored in marker.xml
 
-We also have developed and released [a frontend web interface for hosting CTF events](https://github.com/gregtampa/flawed_fortress-HBCTF-Battlegrounds_ctf_frontend) a frontend web interface for hosting CTF events.
+We also have developed and released [a frontend web interface for hosting CTF events](https://github.com/gregtampa/flawed_fortress-secgen_ctf_frontend) a frontend web interface for hosting CTF events.
 
 ### Defining new scenarios
 Writing your own scenarios enables you to define a VM or set of VMs with a configuration as specific or general as desired.
