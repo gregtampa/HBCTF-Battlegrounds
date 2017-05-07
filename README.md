@@ -47,8 +47,8 @@ Basic usage:
 ruby HBCTF-Battlegrounds.rb run
 ```
 This will use the default scenario to randomly generate VM(s).
-![gify goodness](lib/resources/images/readme_gifs/HBCTF-Battlegrounds_default_scenario_run.gif  "HBCTF-Battlegrounds randomising a vulnerable VM -- part 1, randomisation")
-![gify goodness](lib/resources/images/readme_gifs/HBCTF-Battlegrounds_default_scenario_run_vm.gif  "HBCTF-Battlegrounds randomising a vulnerable VM -- part 2, provisioning VMs")
+![gify goodness](lib/resources/images/readme_gifs/secgen_default_scenario_run.gif  "HBCTF-Battlegrounds randomising a vulnerable VM -- part 1, randomisation")
+![gify goodness](lib/resources/images/readme_gifs/secgen_default_scenario_run_vm.gif  "HBCTF-Battlegrounds randomising a vulnerable VM -- part 2, provisioning VMs")
 
 HBCTF-Battlegrounds accepts arguments to change the way that it behaves, the currently implemented arguments are:
 
@@ -80,7 +80,7 @@ Scenarios can be found in the scenarios/ directory. For example, to spin up a VM
 ```bash
    ruby HBCTF-Battlegrounds.rb --scenario scenarios/examples/remotely_exploitable_user_vulnerability.xml run
 ```
-![gify goodness](lib/resources/images/readme_gifs/HBCTF-Battlegrounds_random_example.gif  "Remotly exploitable example where an attacker ends up with user-level access")
+![gify goodness](lib/resources/images/readme_gifs/secgen_random_example.gif  "Remotly exploitable example where an attacker ends up with user-level access")
 
 #### VMs for a security audit of an organisation
 To generate a set of VMs for a randomly generated fictional organisation, with a desktop system, webserver, and intranet server:
@@ -722,17 +722,7 @@ It is possible to copy the project directory to any compatible system with Vagra
 
 ## Acknowledgments
 *Development team:*
-- Dr Z. gregtampa Schreuders http://z.gregtampa.schreuders.org
 - Tom Shaw
 - Jason Keighley
-- Lewis Ardern -- author of the first proof-of-concept release of HBCTF-Battlegrounds
 - Connor Wilson
 
-Many thanks to everyone who have contributed to the project. The above list is not complete or exhaustive, please refer to the [GitHub history](https://github.com/gregtampa/HBCTF-Battlegrounds/graphs/contributors).
-
-This project is supported by a Higher Education Academy (HEA) learning and teaching in cyber security grant (2015-2017).
-
-## Contributing
-We encourage contributions to the project, please see the wiki for guidance on how to contribute.
-
-Briefly, please fork from http://github.com/gregtampa/HBCTF-Battlegrounds/, create a branch, make and commit your changes, then create a pull request.
