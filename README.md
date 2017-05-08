@@ -31,8 +31,12 @@ You will need to install the following:
 
 ### On Ubuntu these commands will get you up and running
 Install all the required packages:
+https://www.vagrantup.com/downloads.html
 ```bash
-sudo apt-get install ruby-dev zlib1g-dev liblzma-dev build-essential patch virtualbox ruby-bundler vagrant imagemagick libmagickwand-dev
+sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-get update
+sudo apt-get install ruby2.3 ruby2.3-dev
+sudo apt-get install zlib1g-dev liblzma-dev build-essential patch virtualbox ruby-bundler imagemagick libmagickwand-dev
 ```
 
 Copy HBCTF-Battlegrounds to a directory of your choosing, such as */home/user/bin/HBCTF-Battlegrounds*, then:
